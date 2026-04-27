@@ -46,7 +46,7 @@ function generatePDF() {
 }
 
 document.querySelector('form').addEventListener('submit', e => {
-    e.preventDefault()
-    document.querySelector('button').style.display = 'none'
-    generatePDF()
+    e.preventDefault();
+    document.querySelector('button').style.display = 'none';
+    generatePDF();
 })
