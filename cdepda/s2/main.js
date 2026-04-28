@@ -34,7 +34,7 @@ for (let i = 0; i < questions.length; i++) {
 const el = document.querySelector('ol')
 el.innerHTML = qs;
 
-MathJax.typesetPromise([el]);
+// MathJax.typesetPromise([el]);
 
 function generatePDF() {
     const element = document.querySelector('body');
