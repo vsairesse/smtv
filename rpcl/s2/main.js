@@ -5,7 +5,7 @@ const questions = [
         question: `Represente graficamente as funções:`,
         ls: [
             `\\(f(x)=\\log_{2}^{x}\\)`,
-            `\\(f(x)=\\log_{\\frac{2}{3}}^{x}\\)`,
+            `\\(f(x)=\\log_{\\frac{${1+Math.round(Math.random()*2)}}{${4+Math.round(Math.random()*3)}}}^{x}\\)`,
 
         ],
         img: ``
@@ -16,8 +16,7 @@ const questions = [
         question: `Represente graficamente as funções:`,
         ls: [
             `\\(f(x)=\\log_{2}^{(x+${1+Math.round(Math.random() * 5)})}+${1+Math.round(Math.random() * 5)}\\)`,
-            `\\(f(x)=\\log_{\\frac{2}{3}}^{(x-${1+Math.round(Math.random() * 5)})}-${1+Math.round(Math.random() * 5)}\\)`,
-
+            `\\(f(x)=\\log_{\\frac{${1+Math.round(Math.random()*2)}}{${4+Math.round(Math.random()*3)}}}^{(x-${1+Math.round(Math.random() * 5)})}-${1+Math.round(Math.random() * 5)}\\)`,
         ],
         img: ``
     },
