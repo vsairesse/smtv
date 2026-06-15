@@ -23,7 +23,7 @@ const questions = [
     {
         id: '',
         pts: 12,
-        question: `Resolva os exercícios 1.1 e 1.2 como inequações usando o método gráfico, considere as desigualdades \\(\\${symb()}\\) e \\(\\${symb()}\\), respectivamente`,
+        question: `Resolva os exercícios 1.1 e 1.2 como inequações usando o método analítico, considere as desigualdades \\(\\${symb()}\\) e \\(\\${symb()}\\), respectivamente`,
         img: ``
     },
      {
