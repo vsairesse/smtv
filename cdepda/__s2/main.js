@@ -2,7 +2,7 @@ const questions = [
     {
         id: '',
         question: `Determine as alturas das torres:`,
-        img: `<img src='duas-tores.jpg' width="30%"/>`
+        img: `<img src='duas-tores.jpg' width="40%"/>`
     },
     {
         id: '',
